@@ -1,3 +1,47 @@
+/*FUENTES PERSONALIZADAS*/
+@font-face {
+  font-family: "OptimusPrinceps";
+  src: url("./multimedia/fuentes/OptimusPrinceps.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OptimusPrinceps";
+  src: url("./multimedia/fuentes/OptimusPrincepsSemiBold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("./multimedia/fuentes/Minecraft.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Isaac";
+  src: url("./multimedia/fuentes/upheavtt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Perpetua";
+  src: url("./multimedia/fuentes/perpetua.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Terraria";
+  src: url("./multimedia/fuentes/Andy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ESTILOS GENERALES */
 body {
   font-family: "Montserrat", sans-serif;
@@ -127,6 +171,35 @@ body {
 .tarjeta-producto h3,
 p {
   margin: 0;
+}
+
+/*fuentes segun juego */
+
+.ds1 {
+  font-family: "OptimusPrinceps", sans-serif;
+  color: black;
+}
+.minecraft {
+  font-family: "Minecraft", sans-serif;
+  color: black;
+}
+.silksong {
+  font-family: "Perpetua", sans-serif;
+  color: black;
+}
+.isaac {
+  font-family: "Isaac", sans-serif;
+  color: black;
+}
+.terraria {
+  font-family: "Terraria", sans-serif;
+  color: black;
+}
+.elden {
+  color: black;
+}
+.salamanca {
+  color: black;
 }
 
 /* Contacto */
