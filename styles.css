@@ -6,9 +6,14 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-}
 
-/*AÑADIR BORDE O ALGO PARA ESTILIZAR MAIN*/
+  /*configuracion del fondo*/
+  background: linear-gradient(135deg, #0d0221 20%, #5e2e91 80%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
 
 .nav-bar {
   display: flex;
@@ -22,6 +27,7 @@ body {
 .nav-bar img {
   height: 45px;
   width: 45px;
+  filter: invert();
 }
 
 .nav-bar a img {
@@ -36,15 +42,9 @@ body {
   filter: drop-shadow(0 0 6px #ff00ff);
 }
 
-/* Inicio */
 .top-banner {
   height: 25px;
-  background: radial-gradient(
-    circle,
-    rgba(34, 39, 195, 1) 36%,
-    rgba(85, 34, 195, 0.94) 69%,
-    rgba(128, 45, 253, 1) 100%
-  );
+  background: linear-gradient(90deg, #2a0a4a, #4b0082);
 }
 
 .banner {
@@ -52,32 +52,188 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  background: radial-gradient(
-    circle,
-    rgba(36, 26, 66, 1) 36%,
-    rgba(85, 34, 195, 0.94) 69%,
-    rgba(128, 45, 253, 1) 100%
-  );
-  /*color fuente*/
+  background: linear-gradient(90deg, #2a0a4a, #4b0082);
 }
 
 .banner h1 {
   margin-left: 10px;
-  color: #ff00ff;
+  color: #ff80ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff33cc;
   font-weight: bold;
-  text-shadow: 0 0 3px #ff00ff, 0 0 6px #ff77ff, 0 0 10px #00eaff; /* celestito */
 }
 
 .bottom-banner {
   height: 60px;
-  background: radial-gradient(
-    circle,
-    rgba(34, 39, 195, 1) 36%,
-    rgba(85, 34, 195, 0.94) 69%,
-    rgba(128, 45, 253, 1) 100%
-  );
+  background: linear-gradient(90deg, #2a0a4a, #4b0082);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+/* Inicio */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.parrafo-home {
+  font-size: 30px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 1000px) {
+  .productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .productos {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tarjeta-producto {
+  background-color: #b967ff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tarjeta-producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.tarjeta-producto h3,
+p {
+  margin: 0;
+}
+
 /* Contacto */
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px;
+  margin: 0;
+  color: #fff;
+}
+
+.formulario {
+  background: rgba(185, 103, 255, 0.2);
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+.formulario input:focus,
+.formulario textarea:focus {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px #ff00ff, 0 0 15px #00f0ff;
+}
+
+.formulario button {
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+.formulario button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #ff00ff, 0 0 18px #00f0ff;
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    padding: 40px 20px;
+  }
+
+  .formulario {
+    padding: 20px;
+    max-width: 100%;
+    box-shadow: 0px 0px 12px rgba(255, 0, 255, 0.4);
+  }
+
+  .formulario label {
+    font-size: 0.95rem;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .formulario button {
+    font-size: 0.95rem;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacto {
+    padding: 30px 15px;
+  }
+
+  .formulario {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    font-size: 0.9rem;
+  }
+
+  .formulario button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
