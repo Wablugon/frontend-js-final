@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "titulo": "DARK SOULS: Remastered",
+    "descripcion": "Con la era de la llama y del hombre en su ocaso, vuelve a reanimarla con la version remastered de 2018 para PC.",
+    "precio": 40.0,
+    "img": "multimedia/imagenes/ds1_portada.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Elden Ring",
+    "descripcion": "Explora las Tierras Intermedias en este RPG de accion desarrollado por FromSoftware y publicado por Bandai Namco.",
+    "precio": 60.0,
+    "img": "multimedia/imagenes/elden_portada.jpeg"
+  },
+  {
+    "id": 3,
+    "titulo": "Terraria",
+    "descripcion": "Aventurate en un mundo abierto 2D lleno de criaturas, construcciones y mucho mas en este juego indie de gran exito.",
+    "precio": 10.0,
+    "img": "multimedia/imagenes/terraria_portada.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "The Binding of Isaac: Rebirth",
+    "descripcion": "Disfruta del bundle al mejor precio",
+    "precio": 20,
+    "img": "multimedia/imagenes/isaac_portada.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "La Salamanca",
+    "descripcion": "la salamanca",
+    "precio": 20,
+    "img": "multimedia/imagenes/la_salamanca_portada.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Minecraft",
+    "descripcion": "mc",
+    "precio": 20,
+    "img": "multimedia/imagenes/minecraft_portada.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Hollow Knight: Silksong",
+    "descripcion": "silson",
+    "precio": 20,
+    "img": "multimedia/imagenes/silksong_portada.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Elden Ring: Shadows of the Erdtree",
+    "descripcion": "elden",
+    "precio": 20,
+    "img": "multimedia/imagenes/shados_of_erdtree_portada.jpg"
+  }
+]

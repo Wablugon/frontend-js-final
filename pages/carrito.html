@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
-    <title>eShop</title>
+    <link rel="stylesheet" href="../styles.css">
+    <title>Carrito de compras</title>
 </head>
 
 <body>
@@ -18,32 +18,30 @@
         <nav>
             <ul class="nav-bar">
                 <li>
-                    <a href="#">Tienda</a>
+                    <a href="../index.html">Tienda</a>
                 </li>
                 <li>
-                    <a href="pages/contacto.html">Contacto</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
                 <li>
-                    <a href="./pages/carrito.html">&#128722;
+                    <a href="carrito.html">&#128722;
                         <span id="contador-carrito">0</span>
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="home">
-        <h1>Tienda</h1>
-        <p class="parrafo-home">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, similique numquam.
-            Adipisci possimus, porro
-            dolores quos, vel rerum cupiditate ipsa perferendis vero iusto in sapiente eius reiciendis? Ratione, ab vel.
-        </p>
-        <section class="productos">
-            <div id="contenedor-tarjetas">
-            </div>
+    <main class="carrito-main">
+        <section id="contenedor-carrito">
+        </section>
+        <div class="acciones-carrito" id="acciones-carrito">
+        </div>
+        <section id="resumen-compra">
+
         </section>
     </main>
     <footer>
-        <script src="./js/index.js" type="module"></script>
+        <script src="../js/carrito.js" type="module"></script>
     </footer>
 </body>
 
