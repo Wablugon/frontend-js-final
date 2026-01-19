@@ -23,35 +23,35 @@
   {
     "id": 4,
     "titulo": "The Binding of Isaac: Rebirth",
-    "descripcion": "Disfruta del bundle al mejor precio",
+    "descripcion": "Disfruta de uno de los roguelikes mas populares con The Binding of Isaac: Rebirth.",
     "precio": 20,
     "img": "multimedia/imagenes/isaac_portada.jpg"
   },
   {
     "id": 5,
     "titulo": "La Salamanca",
-    "descripcion": "la salamanca",
+    "descripcion": "Descubre los secretos de La Salamanca, un juego de terror basado en el folklore Argentino&#127462.",
     "precio": 20,
     "img": "multimedia/imagenes/la_salamanca_portada.jpg"
   },
   {
     "id": 6,
     "titulo": "Minecraft",
-    "descripcion": "mc",
+    "descripcion": "Crea, explora y sobrevive en un mundo de bloques que no tiene limites.",
     "precio": 20,
     "img": "multimedia/imagenes/minecraft_portada.jpg"
   },
   {
     "id": 7,
     "titulo": "Hollow Knight: Silksong",
-    "descripcion": "silson",
+    "descripcion": "Luego de años de espera, descubre Hollow Knight: Silksong, la esperada secuela del aclamado juego de aventuras y metroidvania.",
     "precio": 20,
     "img": "multimedia/imagenes/silksong_portada.jpg"
   },
   {
     "id": 8,
     "titulo": "Elden Ring: Shadows of the Erdtree",
-    "descripcion": "elden",
+    "descripcion": "Elden Ring: Shadows of the Erdtree es una expansión de Elden Ring que introduce nuevos desafíos y contenido.",
     "precio": 20,
     "img": "multimedia/imagenes/shados_of_erdtree_portada.jpg"
   }
